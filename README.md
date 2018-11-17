@@ -7,3 +7,9 @@ move cursor to eslint warning, then press `command + .(dot)`
 Source code:
 
 https://github.com/WooodHead/disable-eslint-rule-vscode
+
+
+# TODO
+[ ] Shortcut
+[ ] // eslint-disable-next-line [rule]
+[ ] More eslint config file format, rc/json/js ...
