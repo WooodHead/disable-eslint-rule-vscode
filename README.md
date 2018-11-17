@@ -16,3 +16,4 @@ https://github.com/WooodHead/disable-eslint-rule-vscode
 
 [ ] More eslint config file format, rc/json/js ...
 
+[ ] tslint
