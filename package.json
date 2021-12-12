@@ -1,39 +1,40 @@
 {
-    "name": "disable-eslint-rule",
-    "displayName": "Disable eslint rule",
-    "description": "",
-    "version": "0.0.2",
-    "publisher": "WooodHead",
-    "engines": {
-        "vscode": "^1.23.0"
-    },
-    "repository": {
-        "type": "github",
-        "url": "https://github.com/WooodHead/disable-eslint-rule-vscode.git"
-    },
-    "categories": [
-        "Other"
-    ],
-    "activationEvents": [
-        "*"
-    ],
-    "main": "./out/extension",
-    "scripts": {
-        "build": "vsce package",
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^7.0.43",
-        "tslint": "^5.8.0",
-        "typescript": "^2.6.1"
-    },
-    "dependencies": {
-        "fs-extra": "^6.0.1",
-        "vscode": "^1.1.18"
-    }
+  "name": "disable-eslint-rule",
+  "displayName": "Disable eslint rule",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "WooodHead",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/WooodHead/disable-eslint-rule-vscode.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension",
+  "scripts": {
+    "build": "vsce package",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^16.11.12",
+    "tslint": "^5.8.0",
+    "typescript": "^4.5.3",
+    "vscode": "^1.1.18"
+  },
+  "dependencies": {
+    "fs-extra": "^6.0.1"
+  },
+  "__npminstall_done": false
 }
