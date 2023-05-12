@@ -2,7 +2,7 @@
   "name": "disable-eslint-rule",
   "displayName": "Disable eslint rule",
   "description": "",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "WooodHead",
   "engines": {
     "vscode": "^1.23.0"
